@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ebe8e8;
+  font-family: "Space Grotesk", sans-serif;
+  padding-top: none;
+  min-width: 600px;
+}
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.heading {
+  margin: 16px 0;
+}
+
+p {
+  color: rgb(36, 36, 36);
+}
+.header {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+.header a.logo {
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+
+.navbar {
+  margin-left: auto;
+  align-items: center;
+  padding: 16px;
+}
+
+.navbar a {
+  padding: 0px 8px;
+  align-content: center;
+}
+
+i {
+  color: white;
+  size: larger;
+  padding: 0 3px;
+}
+
+.content-main {
+  display: flex;
+  justify-content: center;
+  padding: 80px 30px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  padding: 0 8px;
+  margin-left: auto;
+}
+
+.btn-main {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px;
+  margin: 5px 0;
+
+  background: none;
+  font-weight: 550;
+  font-size: 22px;
+  border-width: 3px;
+  border-radius: 3px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.start-btn {
+  background-color: black;
+  color: white;
+  border-color: black;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.doc-btn {
+  border-color: black;
+  background-color: #ebe8e8;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.doc-btn:hover {
+  background-color: white;
+}
+
+.footer-main {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 0;
+  bottom: 0;
+}
+
+/* Avatar's */
+
+.avatars {
+  margin: 15px;
+  padding: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.avatar-default {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.avatar-round {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.avatar-img {
+  width: 70px;
+  position: fixed;
+  height: 70px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.badge-avt {
+  border-radius: 50%;
+  position: relative;
+  bottom: 65px;
+  left: 70px;
+  background-color: rgb(44, 44, 131);
+  color: #ffffff;
+  padding: 2px;
+  font-size: small;
+}
+h5 {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 15px;
+  font-size: large;
+}
