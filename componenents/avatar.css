@@ -1,62 +1,8 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  font-family: "Space Grotesk", sans-serif;
-}
-
-.page-wrap {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.heading {
-  margin: 16px 0;
-}
-
-p {
-  color: rgb(36, 36, 36);
-}
-.header {
-  background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.header a {
-  color: white;
-  text-decoration: none;
-  padding: 15px;
-}
-.header a.logo {
-  font-weight: bold;
-  font-size: larger;
-  color: white;
-}
+@import url(/main.css);
 
 .all-containant {
   display: flex;
   gap: 2rem;
-}
-
-.navbar {
-  margin-left: auto;
-  align-items: center;
-  padding: 16px;
-}
-
-.navbar a {
-  padding: 0px 8px;
-  align-content: center;
-}
-
-i {
-  color: white;
-  size: larger;
-  padding: 0 3px;
 }
 
 .sidebar {
@@ -71,7 +17,7 @@ i {
   margin-left: 25px;
   display: flex;
   text-align: left;
-  color: rgb(211, 211, 211);
+  color: #ebe8e8;
 }
 
 li a {
@@ -160,8 +106,12 @@ li a {
   padding: 2px;
   font-size: small;
 }
+
 h5 {
-  font-family: "Space Grotesk", sans-serif;
   margin: 15px;
+  font-size: large;
+}
+
+h2 {
   font-size: large;
 }
