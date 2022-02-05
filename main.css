@@ -23,6 +23,7 @@ body {
 p {
   color: rgb(36, 36, 36);
 }
+
 .header {
   background-color: black;
   display: flex;

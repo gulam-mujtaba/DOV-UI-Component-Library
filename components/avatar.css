@@ -1,6 +1,6 @@
 @import url(/main.css);
 
-.all-containant {
+.main-container {
   display: flex;
   gap: 2rem;
 }
@@ -99,8 +99,8 @@ li a {
 .badge-avt {
   border-radius: 60px;
   position: relative;
-  bottom: 85px;
-  left: -35px;
+  bottom: 80px;
+  left: -45px;
   background-color: rgb(44, 44, 131);
   color: #ffffff;
   padding: 2px;
