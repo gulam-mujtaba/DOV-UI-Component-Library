@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOV UI | Avatar</title>
-    <link href="/components/avatar.css" rel="stylesheet" type="text/css" />
+    <title>DOV UI | Alert</title>
+    <link href="/components/alert.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,7 +40,7 @@
             <h2>Install DOV UI</h1> 
             <ul>
                 <li> <a href="/components/avatar.html">Avatar</a></li>
-                <li><a href="/components/alert.html">Alert</a></li>
+                <li> <a href="/components/alert.html">Alert</a></li>
                 <li> <a href="/components/Badges.html">Badge</a></li>
                 <li> <a href="#">Button</a></li>
                 <li> <a href="#">Card</a></li>
@@ -49,29 +49,52 @@
             </ul>
         </aside>
 
-    <div class="avatars">
-      <h5>DOV UI Avatar's</h5>
+    <div class="alerts">
+      <h5>DOV UI Alert's</h5>
+
+      <h6>Alerts with Icons</h6>
+
+      <div class="alert-primary">
+          <span>Primary Alert</span>
+      </div>  
+      <div class="alert-secondary">
+          <span>Secondary Alert</span>
+      </div> 
+      <div class="alert-success">
+          <span>Success Alert</span>
+      </div>  
+      <div class="alert-warning">
+          <span>Alert Warning</span>
+      </div> 
+      <div class="alert-danger">
+        <span>Alert Danger </span>
+    </div>
       
-      <img src="/resources/avatar.png" class="avatar-small" />
-      <img src="/resources/avatar.png" class="avatar-default" />
-      <img src="/resources/avatar.png" class="avatar-large" />
-      <br>
-      <img src="/resources/avatar.png" class="avatar-round" />
-      <img src="/resources/avatar.png" class="avatar-round-med" />
-      <img src="/resources/avatar.png" class="avatar-round-lg" />
-      <br>
+      <h6>Alerts with Icons</h6>
 
-      <span class="avatar-badge"
-        ><img src="/resources/avatar.png" class="avatar-img" />
-        <span class="badge-avt">10</span>
-        
-        <img src="/resources/avatar.png" class="avatar-img-round" />
-        <span class="badge-avt">10</span>
-      </span>
+          <div class="alert-success-icon">
+            <span class="icon">
+              <i class="fas fa-check-circle"></i>
+            </span>
+            <span>Alert Success</span>
+        </div>
 
-      <span class="avatar-badge"
-        >
-      </span>
+          <div class="alert-warning-icon">
+            <span class="icon">
+              <i class="fa fa-exclamation-circle"></i>
+            </span>
+            <span>Alert Warning</span>
+          </div>
+
+          <div class="alert-danger-icon">
+            <span class="icon">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <span>Alert Danger</span>
+          </div>
+          
+          
+      </div>
     </div>
  </div>
     </div>

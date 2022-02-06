@@ -1,0 +1,82 @@
+@import url(/main.css);
+@import url(/components/badges.css);
+
+.alerts {
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+h6 {
+  padding: 1rem 0.5rem;
+}
+.alert-primary {
+  display: flex;
+  width: 600px;
+  padding: 0.5rem;
+  margin: 10px 0;
+  background-color: #c2c2c2;
+  border-radius: 5px;
+  font-weight: medium;
+}
+
+.alert-secondary {
+  display: flex;
+  width: 600px;
+  padding: 0.5rem;
+  margin: 10px 0;
+  background-color: #ebe8e8;
+  border-radius: 5px;
+  font-weight: medium;
+}
+
+.alert-success,
+.alert-success-icon {
+  display: flex;
+  width: 600px;
+  padding: 0.5rem;
+  margin: 10px 0;
+  background-color: #096427a1;
+  color: white;
+  border-radius: 5px;
+  font-weight: medium;
+}
+
+.alert-warning,
+.alert-warning-icon {
+  display: flex;
+  width: 600px;
+  padding: 0.5rem;
+  margin: 10px 0;
+  background-color: #9e670ec7;
+  color: white;
+  border-radius: 5px;
+  font-weight: medium;
+}
+
+.alert-danger,
+.alert-danger-icon {
+  display: flex;
+  width: 600px;
+  padding: 0.5rem;
+  margin: 10px 0;
+  background-color: #640909bb;
+  color: white;
+  border-radius: 5px;
+  font-weight: medium;
+}
+
+.alert-cancel {
+  display: flex;
+  width: 600px;
+  padding: 0.5rem;
+  margin: 10px 0;
+  background-color: #096427a1;
+  color: white;
+  border-radius: 5px;
+  font-weight: medium;
+}
+.icon {
+  padding: 0 6px;
+}
