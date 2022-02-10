@@ -1,0 +1,177 @@
+@import url(/main.css);
+@import url(/components/avatar.css);
+
+.buttons-page {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h2,
+h4 {
+  padding: 15px 10px;
+}
+
+i {
+  color: inherit;
+  padding-right: 10px;
+}
+
+.btn-primary-simple,
+.btn-primary-outline,
+.btn-secondary-simple,
+.btn-secondary-outline,
+.btn-small,
+.btn-large,
+.btn-primary-icon,
+.btn-secondary-icon,
+.btn-disabled,
+.btn-disabled-2,
+.link-btn-primary,
+.link-btn-secondary {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* primary buttons */
+
+.btn-primary-simple {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn-primary-outline {
+  background-color: none;
+  border-color: black;
+  padding: 8px;
+  border-width: 2px;
+}
+
+.btn-primary-outline:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-primary-simple:hover {
+  background-color: #000000b9;
+  cursor: pointer;
+}
+
+.btn-primary-icon {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn-primary-icon:hover {
+  background-color: #000000b9;
+}
+
+/* Secondary buttons */
+
+.btn-secondary-simple {
+  background-color: #cecece;
+  color: #000000dc;
+  border: none;
+}
+
+.btn-secondary-simple:hover {
+  background-color: #0000003f;
+}
+
+.btn-secondary-outline {
+  background-color: none;
+  border-color: #cecece;
+  color: #000000dc;
+  padding: 8px;
+  border-width: 2px;
+}
+
+.btn-secondary-outline:hover {
+  background-color: #cecece;
+}
+
+.btn-secondary-icon {
+  border: none;
+  background-color: #cecece;
+  color: #000000dc;
+  outline-width: 5px;
+  outline-color: rgb(0, 0, 0);
+}
+
+.btn-secondary-icon:hover {
+  background-color: #0000003f;
+}
+
+/* link buttons */
+
+.link-btn-primary,
+.link-btn-secondary {
+  color: #000000b9;
+  border: none;
+  border-color: white;
+  min-width: 6rem;
+}
+
+.link-btn-primary:hover {
+  background-color: black;
+  color: white;
+}
+
+.link-btn-secondary:hover {
+  background-color: #0000003f;
+  color: #000000dc;
+}
+
+/* sized buttons */
+
+.btn-small {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn-large {
+  background-color: #cecece;
+  color: black;
+  border: none;
+  padding: 0.7rem;
+  font-size: large;
+}
+
+.btn-small:hover {
+  background-color: #000000b9;
+}
+
+.btn-large:hover {
+  background-color: #0000003f;
+}
+
+/* disabled buttons */
+
+.btn-disabled,
+.btn-disabled-2 {
+  background-color: #0000003f;
+  color: black;
+  border: none;
+}
+
+/* float button */
+
+.btn-float {
+  border-radius: 50%;
+  align-items: center;
+  padding: 10px;
+  background-color: #0000003f;
+}
+
+.arrow-icon {
+  padding: 5px;
+}
