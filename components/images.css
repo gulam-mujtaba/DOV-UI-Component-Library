@@ -1,0 +1,40 @@
+@import url(/main.css);
+@import url(/components/alert.css);
+
+.image-component {
+  background-color: white;
+  border-radius: 5px;
+  width: 600px;
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+.images-h2 {
+  padding: 0.5rem 1rem;
+}
+
+h4 {
+  padding: 0.2rem 1rem;
+  color: #000000d2;
+}
+.image-des {
+  padding: 0.2rem 1rem;
+}
+
+.image-square {
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  max-width: 70%;
+}
+
+.image-round {
+  padding: 10px;
+  margin: 15px;
+  border-radius: 50%;
+  max-width: 70%;
+  height: auto;
+  max-height: 70%;
+  min-width: none;
+  min-height: auto;
+}

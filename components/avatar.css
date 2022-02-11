@@ -5,7 +5,7 @@
 }
 
 .sidebar {
-  height: 900;
+  height: auto;
   background-color: black;
   padding: none;
   width: 25%;
