@@ -1,0 +1,150 @@
+@import url(/main.css);
+
+.main-container {
+  display: flex;
+  gap: auto;
+}
+
+.sidebar {
+  height: auto;
+  background-color: black;
+  min-width: 25%;
+  display: fixed;
+}
+
+.sidebar h2 {
+  display: flex;
+  padding: 10px;
+  text-align: left;
+  background-color: #a1a1a1;
+}
+
+li a {
+  font-size: 1.4rem;
+  color: white;
+  height: 3rem;
+  text-align: center;
+  margin-top: 18px;
+  display: flex;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+h5 {
+  margin: 15px;
+  font-size: large;
+}
+
+h2 {
+  font-size: large;
+}
+
+/* Badges Section */
+
+.badges {
+  margin: 15px;
+  padding: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.bell-icon {
+  color: black;
+  padding: 1rem;
+  position: absolute;
+}
+.bell-badge {
+  background-color: rgb(44, 44, 131);
+  color: white;
+  padding: 2px;
+  font-size: x-small;
+  position: relative;
+  left: 30px;
+  top: 5px;
+  border-radius: 60%;
+}
+
+.cart-icon {
+  color: black;
+  padding: 1rem;
+  padding-left: 2rem;
+  position: absolute;
+}
+
+.cart-badge {
+  background-color: rgb(44, 44, 131);
+  color: white;
+  padding: 2px;
+  font-size: x-small;
+  position: relative;
+  right: -65px;
+  top: 5px;
+  border-radius: 60%;
+}
+
+h6 {
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  font-size: medium;
+}
+
+.avatar-online {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatar-online-badge {
+  background: none;
+  color: rgb(0, 177, 44);
+
+  height: 0.001px;
+  width: 0.001px;
+  font-size: 5pc;
+  position: relative;
+  right: 48px;
+  bottom: 25px;
+  border-radius: 50%;
+}
+
+.avatar-online-lg {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar-online-badge-lg {
+  background: none;
+  color: rgb(214, 50, 50);
+
+  height: 0.001px;
+  width: 0.001px;
+  font-size: 7pc;
+  position: relative;
+  right: 55px;
+  bottom: 100px;
+  border-radius: 50%;
+}
+
+.avatar-online-m {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-online-badge-m {
+  background: none;
+  color: rgb(206, 132, 15);
+
+  height: 0.001px;
+  width: 0.001px;
+  font-size: 7pc;
+  position: relative;
+  right: 55px;
+  bottom: 90px;
+  border-radius: 50%;
+}

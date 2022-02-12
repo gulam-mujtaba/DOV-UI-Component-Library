@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOV UI | Inputs</title>
+    <link href="/components/input.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+     <script
+      src="https://kit.fontawesome.com/af85c0793c.js"
+      crossorigin="anonymous"> </script>
+</head>
+
+
+
+<body>
+    <div class="page-wrap">
+    <div class="header">
+        <a href="#" class="logo">DOV UI </a>
+        
+        <div class="navbar">
+          <a href="/index.html">Home</a>
+          <a href="#">Features</a>
+          <a href="/components/avatar.css">Documentation</a>
+          <i class="fab fa-github"></i>
+        </div>
+      </div>    
+    
+    
+     <div class="main-container">
+
+        <aside class="sidebar">
+            <h2>Install DOV UI</h1> 
+            <ul>
+                <li> <a href="/components/avatar.html">Avatar</a></li>
+                <li> <a href="/components/alert.html">Alert</a></li>
+                <li> <a href="/components/Badges.html">Badge</a></li>
+                <li> <a href="/components/buttons.html">Button</a></li>
+                <li> <a href="#">Card</a></li>
+                <li> <a href="/components/images.html">Image</a></li>
+                <li> <a href="#">Input</a></li>
+            </ul>
+        </aside>
+
+        <div class="inputs-page">
+       <div class="input-simple">
+         <h2 class="h2-input">DOV UI Inputs</h2>
+        <h4 class="input-heading">Input without Validation</h4>
+         <p class="input-p">Inputs are used for taking some important information from the user so that we can use that information when required.</p>
+        <label class="std-input-label">Standard Input</label>
+        <p class="input-p">These type of Inputs are generic in use and used quite often, Eg: Email Address, Numbers</p>
+        <input class="std-input" placeholder="Enter Email Address" type="email"/>
+        <input class="num-input" type="number" placeholder="Enter numbers">
+       </div>
+
+       <div class="input-validation">
+         <h4 class="input-heading" >Input with Validation</h4>
+           <!-- Error Input -->
+        <label class="err-input-label">Error Input (not responsive for now)</label>
+        <p class="input-p">These type of inputs are used when there are certain conditions to be fullfilled by the user. Eg: Passwords </p>
+        <input class="err-input" type="password"  placeholder="Please enter atleast 8 Characters" required/>
+        <br>
+
+          <!-- Success Input -->
+          <label class="success-input-label">Success Input</label>
+          <p class="input-p">When the condition is fulfilled, the input section can calidate and turn green.  </p>
+          <input class="success-input" placeholder="Please enter atleast 8 Characters" required/>
+
+       </div>
+
+      </div>
+
+       </div>
+    </div>
+ </div>
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+@import url(/main.css);
+
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  height: auto;
+  background-color: black;
+  padding: none;
+  width: 25%;
+  display: fixed;
+}
+
+.sidebar h2 {
+  padding-left: 25px;
+  display: flex;
+  text-align: left;
+  color: black;
+  background-color: #cecece;
+}
+
+li a {
+  font-size: 1.4rem;
+  color: white;
+  height: 3rem;
+  text-align: center;
+  margin-top: 18px;
+  display: flex;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.avatars {
+  margin: 15px;
+  padding: 10px;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.avatar-default {
+  width: 3rem;
+  height: 3rem;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.avatar-small {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 10px;
+  border-radius: 10px;
+}
+.avatar-large {
+  width: 4rem;
+  height: 4rem;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.avatar-round {
+  width: 3rem;
+  height: 3rem;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.avatar-round-med {
+  width: 4rem;
+  height: 4rem;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.avatar-round-lg {
+  width: 5rem;
+  height: 5rem;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.avatar-img-round {
+  width: 4rem;
+  height: 4rem;
+  margin: 10px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar-img {
+  width: 4rem;
+  height: 4rem;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.badge-avt {
+  border-radius: 60px;
+  position: relative;
+  bottom: 80px;
+  left: -45px;
+  background-color: rgb(44, 44, 131);
+  color: #ffffff;
+  padding: 2px;
+  font-size: small;
+}
+
+h5 {
+  margin: 15px;
+  font-size: large;
+}
+
+h2 {
+  font-size: large;
+}
